@@ -24,7 +24,8 @@ Simple application project for learning Spring Boot.
 4. Postgres - Driver for PostgreSQL
 
 ## Configuration
-Used application.yaml file for set up.
+Used pom.xml
+Used application.yaml file for set up database.
 
 ## Endpoints:
 @RequestMapping("api/v1/students") - starter endpoint
