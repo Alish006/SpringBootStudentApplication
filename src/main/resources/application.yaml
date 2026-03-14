@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SpringProjectTest
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_student
+    username: postgres
+    password: 24atahud
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
