@@ -25,6 +25,7 @@ Simple application project for learning Spring Boot.
 
 ## Configuration
 Used pom.xml
+
 Used application.yaml file for set up database.
 
 ## Endpoints:
